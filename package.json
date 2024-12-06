@@ -1,0 +1,41 @@
+{
+  "name": "@lightsalmon/snackbar",
+  "version": "0.0.1",
+  "description": "Snackbar is a library that helps you add those typical messages popping over when a an action succeds or fails in a web page.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "//TODO",
+    "build": "rollup -c",
+    "release": "semantic-release",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:dry": "biome lint --error-on-warnings",
+    "lint": "biome lint --error-on-warnings --write",
+    "lint:unsafe": "biome lint --error-on-warnings --write --unsafe",
+    "format:dry": "biome format",
+    "format": "biome format --write",
+    "tsc-check": "npx tsc --noEmit -p tsconfig.json",
+    "prepare": "husky"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "19.0.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@rollup/plugin-commonjs": "^28.0.1",
+    "@rollup/plugin-node-resolve": "^15.3.0",
+    "@rollup/plugin-typescript": "^12.1.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^11.1.0",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/npm": "^11.0.3",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "@types/react": "^19.0.0",
+    "husky": "^9.1.7",
+    "rollup": "^4.28.0",
+    "rollup-plugin-delete": "^2.1.0",
+    "semantic-release": "^22.0.12",
+    "tslib": "^2.8.1"
+  }
+}
