@@ -1,6 +1,6 @@
 {
   "name": "@lightsalmon/snackbar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Snackbar is a library that helps you add those typical messages popping over when a an action succeeds or fails in a web page.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
