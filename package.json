@@ -1,8 +1,15 @@
 {
   "name": "@lightsalmon/snackbar",
   "version": "1.0.0",
-  "description": "Snackbar is a library that helps you add those typical messages popping over when a an action succeds or fails in a web page.",
-  "main": "index.js",
+  "description": "Snackbar is a library that helps you add those typical messages popping over when a an action succeeds or fails in a web page.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "dev": "//TODO",
     "build": "rollup -c",
@@ -16,8 +23,19 @@
     "tsc-check": "npx tsc --noEmit -p tsconfig.json",
     "prepare": "husky"
   },
-  "author": "",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightsalmon-dev/snackbar/issues"
+  },
+  "homepage": "https://github.com/lightsalmon-dev/snackbar#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [],
+  "author": "Fabio Cingottini",
+  "license": "MIT",
   "peerDependencies": {
     "react": "19.0.0"
   },
